@@ -1,0 +1,5 @@
+# based on this https://github.com/prometheus-community/helm-charts/blob/main/.github/linters/ct.yaml
+remote: origin
+target-branch: main
+chart-dirs:
+  - charts
