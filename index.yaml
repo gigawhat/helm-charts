@@ -1,5 +1,18 @@
 apiVersion: v1
 entries:
+  hello-world:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-11-05T05:38:38.89863977Z"
+    description: A Helm chart testing
+    digest: 625a4e19cca7e9918b597ac328da8a4aa6bf8b03b0a940fa3185564bed9e1bbd
+    maintainers:
+    - name: gigawhat
+    name: hello-world
+    type: application
+    urls:
+    - https://github.com/gigawhat/helm-charts/releases/download/hello-world-0.1.0/hello-world-0.1.0.tgz
+    version: 0.1.0
   prometheus-operator:
   - apiVersion: v2
     appVersion: v0.60.1
@@ -21,4 +34,4 @@ entries:
     urls:
     - https://github.com/gigawhat/helm-charts/releases/download/prometheus-operator-v0.60.0/prometheus-operator-v0.60.0.tgz
     version: v0.60.0
-generated: "2022-11-05T03:57:41.352216382Z"
+generated: "2022-11-05T05:38:38.898648071Z"
